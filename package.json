@@ -5,9 +5,9 @@
   "main": "server/server.js",
   "scripts": {
     "develop": "node server/server.js",
-    "build": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "start": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "start": "cd client && npm run build"
+    "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
