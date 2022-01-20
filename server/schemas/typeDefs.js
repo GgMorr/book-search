@@ -19,7 +19,6 @@ type Book {
   title: String
   authors: [String]
   description: String
-  title: String
   image: String
   link: String 
 }
@@ -34,7 +33,6 @@ input saveBookInput {
   title: String
   authors: [String]
   description: String
-  title: String
   image: String
   link: String
 }
